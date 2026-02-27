@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Formulário Simples</title>
+  </head>
+  <body>
+    <h1>Formulário Simples para Exemplo</h1>
+
+    <form
+      method="post"
+      style="display: flex; flex-direction: column; max-width: 400px"
+      action="dadosRecebidos.php"
+    >
+      <label>Nome: </label>
+      <input type="text" name="nome" placeholder="Digite seu nome" required />
+      <label>E-mail: </label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Digite seu e-mail"
+        required
+      />
+      <label>Curso:</label>
+      <input type="text" name="curso" />
+      <label>Depoimento:</label>
+      <textarea name="depoimento"></textarea>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </form>
+  </body>
+</html>

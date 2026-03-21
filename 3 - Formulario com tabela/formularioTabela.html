@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulário de Compra</title>
+  </head>
+  <body>
+    <h1>Formulário de Compra</h1>
+    <form method="POST" action="processaCompra.php">
+      <table>
+        <tr>
+          <td><label for="produto">Nome do Produto:</label></td>
+          <td><input type="text" id="produto" name="produto" required /></td>
+        </tr>
+        <tr>
+          <td><label for="valor">Valor (R$):</label></td>
+          <td>
+            <input
+              type="number"
+              id="valor"
+              name="valor"
+              step="0.01"
+              min="0"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="quantidade">Quantidade:</label></td>
+          <td>
+            <input
+              type="number"
+              id="quantidade"
+              name="quantidade"
+              min="1"
+              required
+            />
+          </td>
+        </tr>
+      </table>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+!!<?xml version="1.0" encoding="UTF-8"?>
+<cardapio>
+    <item>
+        <codigo>01</codigo>
+        <nome>Spaghetti à Bolonhesa</nome>
+        <descricao>Macarrão com molho de carne e tomate.</descricao>
+        <valor>32.00</valor>
+    </item>
+    <item>
+        <codigo>02</codigo>
+        <nome>Frango Grelhado</nome>
+        <descricao>Peito de frango grelhado com legumes.</descricao>
+        <valor>28.50</valor>
+    </item>
+    <item>
+        <codigo>03</codigo>
+        <nome>Salada Caesar</nome>
+        <descricao>Alface, frango, croutons e molho Caesar.</descricao>
+        <valor>24.00</valor>
+    </item>
+</cardapio>
